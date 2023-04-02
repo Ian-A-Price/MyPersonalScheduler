@@ -1,0 +1,2 @@
+# MyPersonalScheduler
+ I have a tendency to want to remember everything I have to do in my head rather than write them down. Ultimately I may lose focus or feel overwhelmed. I want to have a system where I can effeciently write everything down and not forget about it. It is a simple scheduling app that I can personalize so that I dont fall into the habit of not using it or being lazy to write it down and prefering to simply remember it.
