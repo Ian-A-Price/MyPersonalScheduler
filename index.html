@@ -1,87 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>My Personal Scheduler</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>My Personal Scheduler</title>
+  </head>
 
-<body>
-  <div class="row min-vh-100 no-gutters">
-    <header>
-      <h1>My Personal Scheduler</h1>
-      <!-- Button to add a task-->
-      <button id="create-task" >
-        Add Task
-      </button>
-      <!-- Button to remove a task-->
-      <button>
-        Remove Task
-      </button>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas corrupti deleniti, possimus distinctio harum porro in sapiente blanditiis velit exercitationem, voluptatem facilis dolor doloribus aperiam odio, illo maxime. Facilis, tempore!
-      </p>
-    </header>
+  <body>
+    <div class="row min-vh-100 no-gutters">
+      <header>
+        <h1>My Personal Scheduler</h1>
+        <!-- Button to add a task-->
+        <button id="create-task" >
+          Add Task
+        </button>
+        <!-- Button to remove a task-->
+        <button>
+          Remove Task
+        </button>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas corrupti deleniti, possimus distinctio harum porro in sapiente blanditiis velit exercitationem, voluptatem facilis dolor doloribus aperiam odio, illo maxime. Facilis, tempore!
+        </p>
+      </header>
 
-    <main>
-      <div>
+      <main>
         <div>
           <div>
-            <h4>
-              To Do
-            </h4>
-            <ul id="list-toDo">
-            </ul>
+            <div>
+              <h4>
+                To Do
+              </h4>
+              <ul id="list-toDo">
+              </ul>
+            </div>
           </div>
-        </div>
-        <div>
           <div>
-            <h4>
-              In Progress
-            </h4>
-            <ul id="list-inProgress">
-            </ul>
+            <div>
+              <h4>
+                In Progress
+              </h4>
+              <ul id="list-inProgress">
+              </ul>
+            </div>
           </div>
-        </div>
-        <div>
           <div>
-            <h4>
-              In Review
-            </h4>
-            <ul id="list-inReview">
-            </ul>
+            <div>
+              <h4>
+                In Review
+              </h4>
+              <ul id="list-inReview">
+              </ul>
+            </div>
           </div>
-        </div>
-        <div>
           <div>
-            <h4>
-              Done
-            </h4>
-            <ul id="list-done"></ul>
+            <div>
+              <h4>
+                Done
+              </h4>
+              <ul id="list-done"></ul>
+            </div>
           </div>
         </div>
-      </div>
 
-      <footer id="trash">
-        <div>
-          Drop Here to Remove
-        </div>
-      </footer>
-    </main>
-  </div>
+        <footer id="trash">
+          <div>
+            Drop Here to Remove
+          </div>
+        </footer>
+      </main>
+    </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-  <script src="./assets/js/script.js"></script>
-</body>
+    <!-- Modal-->
+    <div> </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
